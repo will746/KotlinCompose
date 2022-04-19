@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    tools:context=".ui.home.InlineFunActivity">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="toLetFun"
+        android:text="Let"
+        app:layout_constraintStart_toStartOf="@id/tv_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="toWithFun"
+        android:text="With"
+        app:layout_constraintStart_toStartOf="@id/tv_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="toRunFun"
+        android:text="Run"
+        app:layout_constraintStart_toStartOf="@id/tv_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="toAlsoFun"
+        android:text="Also"
+        app:layout_constraintStart_toStartOf="@id/tv_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_content" />
+
+
+</LinearLayout>
