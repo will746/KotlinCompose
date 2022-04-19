@@ -25,9 +25,10 @@
 
         <!--委托代理类-->
         <activity android:name=".ui.home.DelegateActivity"/>
-        <activity android:name=".ui.home.LoadMoreRefreshUseActivity"/>
 
+        <!--数据操作-->
         <activity android:name=".kotlinbasic.ConstructorHelloActivity"/>
+        <activity android:name=".kotlinbasic.SetActivity"/>
 
     </application>
 

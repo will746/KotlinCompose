@@ -52,7 +52,6 @@ class HomeFragment : Fragment() {
         adapter.setOnItemClickListener { adapter, _, position ->
             val item = adapter.data[position] as HomeEntity
 
-            /*内联函数*/
             startActivity(Intent(requireContext(), item.activity))
         }
 
